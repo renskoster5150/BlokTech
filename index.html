@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <h3>barry</h3>
+    <div class="container">
+        <h2>Registreren</h2>
+        <form id="loginForm">
+            <label for="username">Username</label>
+            <input type="text" name="username" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" required>
+
+            <label for="birthdate">Date of birth</label>
+            <input type="date" name="date" required>
+
+            <label for="color">Favorite Color?</label>
+            <input type="color" name="color">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
